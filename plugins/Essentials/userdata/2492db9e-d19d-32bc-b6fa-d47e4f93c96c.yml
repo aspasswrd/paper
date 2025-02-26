@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 93.175.7.4
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740587348728
+  login: 1740587333923
+money: '0'
+last-account-name: kkotay
+lastlocation:
+  world: 7ff0581d-a819-425d-b83c-1315e273eecc
+  world-name: world
+  x: 7.5
+  y: 82.0
+  z: -0.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 7ff0581d-a819-425d-b83c-1315e273eecc
+  world-name: world
+  x: -16.641352494085638
+  y: -18.86818858913423
+  z: 53.34315591685802
+  yaw: 71.25152587890625
+  pitch: 43.04996109008789

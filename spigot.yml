@@ -57,6 +57,7 @@ commands:
   - summon
   - testforblock
   - tellraw
+  enable-spam-exclusions: false
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
@@ -172,6 +173,8 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    verbose: false
+  worldeditregentempworld:
     verbose: false
 players:
   disable-saving: false

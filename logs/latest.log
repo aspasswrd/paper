@@ -1,178 +1,215 @@
-[19:26:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.11.0-17-generic (amd64)
-[19:26:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-178-main@636ae0c (2025-02-25T05:45:28Z) for Minecraft 1.21.4
-[19:26:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:26:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[19:26:33] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - Essentials (2.20.1), EssentialsChat (2.20.1), EssentialsSpawn (2.20.1), LuckPerms (5.4.156), TAB (5.0.7)
-[19:26:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:26:39] [ServerMain/INFO]: Loaded 1370 recipes
-[19:26:39] [ServerMain/INFO]: Loaded 1481 advancements
-[19:26:39] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[19:26:40] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 237.2ms
-[19:26:40] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[19:26:40] [Server thread/INFO]: Loading properties
-[19:26:40] [Server thread/INFO]: This server is running Paper version 1.21.4-178-main@636ae0c (2025-02-25T05:45:28Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[19:26:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:26:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:26:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:26:40] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[19:26:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[19:26:43] [Server thread/INFO]: Default game type: SURVIVAL
-[19:26:43] [Server thread/INFO]: Generating keypair
-[19:26:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:26:43] [Server thread/INFO]: Using epoll channel type
-[19:26:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:26:43] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[19:26:44] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[19:26:44] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[19:26:44] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
-[19:26:44] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
-[19:26:44] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[19:26:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:26:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[19:26:45] [Server thread/INFO]:         __    
-[19:26:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[19:26:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:26:45] [Server thread/INFO]: 
-[19:26:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:26:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:26:45] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:26:45] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:26:45] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1329ms)
-[19:26:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:26:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:26:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:26:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:26:45] [Server thread/INFO]: Preparing level "world"
-[19:26:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:26:46] [Server thread/INFO]: Preparing spawn area: 0%
-[19:26:47] [Server thread/INFO]: Preparing spawn area: 0%
-[19:26:47] [Server thread/INFO]: Time elapsed: 912 ms
-[19:26:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:26:47] [Server thread/INFO]: Preparing spawn area: 0%
-[19:26:47] [Server thread/INFO]: Time elapsed: 149 ms
-[19:26:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:26:47] [Server thread/INFO]: Preparing spawn area: 0%
-[19:26:47] [Server thread/INFO]: Time elapsed: 82 ms
-[19:26:47] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[19:26:47] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[19:26:48] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:26:48] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:26:48] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[19:26:48] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[19:26:48] [Server thread/INFO]: [Essentials] Converted 0/1
-[19:26:48] [Server thread/INFO]: [Essentials] Ban format update complete.
-[19:26:48] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[19:26:48] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[19:26:48] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[19:26:48] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[19:26:48] [Server thread/INFO]: [Essentials] Done converting mail list.
-[19:26:48] [Server thread/INFO]: [Essentials] #===========================================================================#
-[19:26:48] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[19:26:48] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[19:26:48] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[19:26:48] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[19:26:48] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[19:26:48] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[19:26:48] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[19:26:48] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[19:26:48] [Server thread/INFO]: [Essentials] 
-[19:26:48] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[19:26:48] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[19:26:48] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[19:26:48] [Server thread/INFO]: [Essentials] #===========================================================================#
-[19:26:48] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[19:26:48] [Server thread/INFO]: [Essentials] #===========================================================================#
-[19:26:48] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[19:26:48] [Server thread/INFO]: [Essentials] 
-[19:26:48] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[19:26:48] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[19:26:48] [Server thread/INFO]: [Essentials] 
-[19:26:48] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[19:26:48] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[19:26:48] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[19:26:48] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[19:26:48] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[19:26:48] [Server thread/INFO]: [Essentials] #===========================================================================#
-[19:26:48] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[19:26:48] [Server thread/INFO]: [Essentials] Using locale en_US
-[19:26:48] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:26:48] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:26:48] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[19:26:48] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[19:26:48] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[19:26:48] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[19:26:48] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[19:26:48] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
-[19:26:48] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[19:26:48] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[19:26:48] [Server thread/INFO]: [TAB] Loaded NMS hook in 121ms
-[19:26:49] [Server thread/INFO]: [TAB] Enabled in 276ms
-[19:26:49] [Server thread/INFO]: [spark] Starting background profiler...
-[19:26:49] [Server thread/INFO]: Done preparing level "world" (3.751s)
-[19:26:49] [Server thread/INFO]: Running delayed init tasks
-[19:26:49] [Server thread/INFO]: Done (17.420s)! For help, type "help"
-[19:26:49] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[19:26:57] [User Authenticator #0/INFO]: UUID of player kkotay is 2492db9e-d19d-32bc-b6fa-d47e4f93c96c
-[19:26:58] [Server thread/INFO]: kkotay joined the game
-[19:26:58] [Server thread/INFO]: kkotay[/93.175.7.4:65052] logged in with entity id 112 at ([world]2.2882300238024986, 92.16173801355212, -3.5880585309419812)
-[19:27:03] [Server thread/INFO]: kkotay lost connection: Disconnected
-[19:27:03] [Server thread/INFO]: kkotay left the game
-[19:27:23] [User Authenticator #0/INFO]: UUID of player kkotay is 2492db9e-d19d-32bc-b6fa-d47e4f93c96c
-[19:27:24] [Server thread/INFO]: kkotay joined the game
-[19:27:24] [Server thread/INFO]: kkotay[/93.175.7.4:65062] logged in with entity id 299 at ([world]2.2882300238024986, 92.16173801355212, -3.5880585309419812)
-[19:27:37] [Server thread/INFO]: kkotay has made the advancement [Monster Hunter]
-[19:28:25] [Server thread/INFO]: kkotay lost connection: Disconnected
-[19:28:25] [Server thread/INFO]: kkotay left the game
-[19:28:35] [User Authenticator #1/INFO]: UUID of player kkotay is 2492db9e-d19d-32bc-b6fa-d47e4f93c96c
-[19:28:35] [Server thread/INFO]: kkotay joined the game
-[19:28:35] [Server thread/INFO]: kkotay[/93.175.7.4:65091] logged in with entity id 504 at ([world]-9.394040949775096, -41.24327994978454, 67.60366119890998)
-[19:28:39] [Server thread/INFO]: kkotay lost connection: Disconnected
-[19:28:39] [Server thread/INFO]: kkotay left the game
-[19:28:53] [User Authenticator #1/INFO]: UUID of player kkotay is 2492db9e-d19d-32bc-b6fa-d47e4f93c96c
-[19:28:53] [Server thread/INFO]: kkotay joined the game
-[19:28:53] [Server thread/INFO]: kkotay[/93.175.7.4:65187] logged in with entity id 522 at ([world]-9.394040949775096, -41.24327994978454, 67.60366119890998)
-[19:29:08] [Server thread/INFO]: kkotay lost connection: Disconnected
-[19:29:08] [Server thread/INFO]: kkotay left the game
-[19:32:18] [Server thread/INFO]: Stopping the server
-[19:32:18] [Server thread/INFO]: Stopping server
-[19:32:18] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
-[19:32:18] [Server thread/INFO]: [TAB] Disabled in 1ms
-[19:32:18] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
-[19:32:18] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
-[19:32:18] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[19:32:18] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
-[19:32:18] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:32:18] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:32:18] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:32:18] [Server thread/INFO]: Saving players
-[19:32:18] [Server thread/INFO]: Saving worlds
-[19:32:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:32:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:32:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:32:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Saved 271 block chunks, 402 entity chunks, 1 poi chunks in world 'world' in 0.45s
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[19:32:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[19:32:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[19:32:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[19:32:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:32:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:32:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:32:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:32:19] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[19:32:19] [Server thread/INFO]: All I/O tasks to complete
-[19:32:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[19:32:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[14:22:58] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.11.0-21-generic (amd64)
+[14:22:58] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) for Minecraft 1.21.4
+[14:22:58] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:22:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[14:22:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
+ - Chunky (1.4.28), Essentials (2.21.0), EssentialsChat (2.21.0), EssentialsSpawn (2.21.0), FastAsyncVoxelSniper (3.2.2), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1078;ac88d95), Geyser-Spigot (2.7.0-SNAPSHOT), LuckPerms (5.4.156), TAB (5.0.7), Vault (1.7.3-b131), ViaBackwards (5.3.2-SNAPSHOT), ViaVersion (5.3.2-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[14:23:03] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:23:05] [ServerMain/INFO]: Loaded 1370 recipes
+[14:23:05] [ServerMain/INFO]: Loaded 1481 advancements
+[14:23:05] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[14:23:05] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 194.6ms
+[14:23:05] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[14:23:05] [Server thread/INFO]: Loading properties
+[14:23:05] [Server thread/INFO]: This server is running Paper version 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[14:23:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:23:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:23:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:23:06] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[14:23:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:23:07] [Server thread/INFO]: Default game type: SURVIVAL
+[14:23:07] [Server thread/INFO]: Generating keypair
+[14:23:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:23:07] [Server thread/INFO]: Using epoll channel type
+[14:23:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:23:07] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[14:23:08] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2-SNAPSHOT
+[14:23:08] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[14:23:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:23:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:23:09] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:23:09] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:23:09] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[14:23:09] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[14:23:09] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1078;ac88d95
+[14:23:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7ded5b7b]
+[14:23:10] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[14:23:10] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[14:23:11] [Server thread/INFO]: [floodgate] Took 669ms to boot Floodgate
+[14:23:11] [Server thread/INFO]: [FastAsyncVoxelSniper] Loading server plugin FastAsyncVoxelSniper v3.2.2
+[14:23:11] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0
+[14:23:11] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[14:23:11] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[14:23:11] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[14:23:11] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[14:23:11] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2-SNAPSHOT
+[14:23:11] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0
+[14:23:11] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[14:23:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:23:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[14:23:12] [Server thread/INFO]:         __    
+[14:23:12] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[14:23:12] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:23:12] [Server thread/INFO]: 
+[14:23:12] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:23:12] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:23:12] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:23:12] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:23:12] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1091ms)
+[14:23:12] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:23:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:23:12] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:23:12] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:23:12] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:23:12] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1078;ac88d95
+[14:23:12] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[14:23:12] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[14:23:13] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:23:13] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[14:23:13] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[14:23:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:23:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:23:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:23:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:23:14] [Server thread/INFO]: Preparing level "world"
+[14:23:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:23:14] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 8 build(s) out of date.
+You are running build 1078, the latest version is build 1086.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[14:23:14] [Server thread/INFO]: Preparing spawn area: 0%
+[14:23:15] [Server thread/INFO]: Preparing spawn area: 8%
+[14:23:15] [Server thread/INFO]: Time elapsed: 887 ms
+[14:23:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:23:15] [Server thread/INFO]: Preparing spawn area: 0%
+[14:23:15] [Server thread/INFO]: Time elapsed: 110 ms
+[14:23:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:23:15] [Server thread/INFO]: Preparing spawn area: 0%
+[14:23:15] [Server thread/INFO]: Time elapsed: 49 ms
+[14:23:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2-SNAPSHOT
+[14:23:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[14:23:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[14:23:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:23:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:23:15] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[14:23:15] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[14:23:16] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[14:23:16] [Server thread/INFO]: [Essentials] Using locale en_US
+[14:23:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:23:16] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:23:16] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:23:16] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[14:23:16] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[14:23:16] [Server thread/INFO]: [FastAsyncVoxelSniper] Enabling FastAsyncVoxelSniper v3.2.2
+[14:23:17] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0
+[14:23:17] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[14:23:17] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[14:23:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[14:23:17] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2-SNAPSHOT
+[14:23:17] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0
+[14:23:17] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[14:23:17] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[14:23:17] [Server thread/INFO]: [TAB] Loaded NMS hook in 48ms
+[14:23:17] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "admin" defined for group "groups". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[14:23:17] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "default" defined for group "groups". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[14:23:18] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[14:23:18] [Server thread/INFO]: [TAB] Enabled in 177ms
+[14:23:18] [Server thread/INFO]: [spark] Starting background profiler...
+[14:23:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:23:18] [Server thread/INFO]: [Geyser-Spigot] 
+[14:23:18] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b801 (git-master-7a9c6b3)
+[14:23:18] [Server thread/INFO]: [Geyser-Spigot] 
+[14:23:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:23:21] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[14:23:21] [Server thread/INFO]: [Geyser-Spigot] Done (2.912s)! Run /geyser help for help!
+[14:23:21] [Server thread/INFO]: Done preparing level "world" (7.464s)
+[14:23:21] [Server thread/INFO]: Running delayed init tasks
+[14:23:21] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:23:21] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[14:23:21] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[14:23:21] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:23:21] [Server thread/INFO]: Done (23.918s)! For help, type "help"
+[14:23:21] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[14:23:21] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[14:23:21] [Craft Scheduler Thread - 4 - FastAsyncVoxelSniper/INFO]: [com.thevoxelbox.voxelsniper.VoxelSniperPlugin] You are using a snapshot release or a custom version. This is not a stable release found on https://dev.bukkit.org/projects/favs/.
+[14:23:51] [User Authenticator #0/INFO]: UUID of player aspasswrd is 4fb49088-1325-300e-8678-a5c2dbe234ef
+[14:23:52] [Server thread/INFO]: aspasswrd joined the game
+[14:23:52] [Server thread/INFO]: aspasswrd[/93.175.7.4:49952] logged in with entity id 24 at ([world]63.539213502021575, 67.0, -62.30745025791589)
+[14:29:05] [Server thread/INFO]: aspasswrd issued server command: /time set 0
+[14:30:11] [Server thread/INFO]: aspasswrd lost connection: Disconnected
+[14:30:11] [Server thread/INFO]: aspasswrd left the game
+[14:30:41] [Server thread/INFO]: Stopping the server
+[14:30:41] [Server thread/INFO]: Stopping server
+[14:30:41] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
+[14:30:41] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:30:41] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0
+[14:30:41] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2-SNAPSHOT
+[14:30:41] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[14:30:41] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[14:30:41] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[14:30:41] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
+[14:30:41] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0
+[14:30:41] [Server thread/INFO]: [FastAsyncVoxelSniper] Disabling FastAsyncVoxelSniper v3.2.2
+[14:30:41] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[14:30:41] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[14:30:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[14:30:41] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1078;ac88d95
+[14:30:41] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:30:41] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:30:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
+[14:30:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:30:41] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:30:41] [WebSocketConnectReadThread-169/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[14:30:41] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:30:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2-SNAPSHOT
+[14:30:41] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[14:30:41] [Server thread/INFO]: Saving players
+[14:30:42] [Server thread/INFO]: Saving worlds
+[14:30:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Saved 71 block chunks, 190 entity chunks, 0 poi chunks in world 'world' in 0.06s
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[14:30:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[14:30:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[14:30:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[14:30:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:30:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:30:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:30:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:30:42] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[14:30:42] [Server thread/INFO]: All I/O tasks to complete
+[14:30:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[14:30:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

@@ -4,5 +4,11 @@
     "name": "kkotay",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4fb49088-1325-300e-8678-a5c2dbe234ef",
+    "name": "aspasswrd",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

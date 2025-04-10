@@ -11,3 +11,5 @@ updateUsersIgnoreListUUID: true
 updateUsersStupidLegacyPathNames: true
 updateUsersMailList: true
 updatePurgeBrokenNpcAccounts: true
+updateLegacyToAdventure: true
+updateRandomTeleport: true

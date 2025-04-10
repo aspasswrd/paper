@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740587348728
-  login: 1740587333923
+  logout: 1743863719735
+  login: 1743863393588
 money: '0'
 last-account-name: kkotay
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 7ff0581d-a819-425d-b83c-1315e273eecc
   world-name: world
-  x: -16.641352494085638
-  y: -18.86818858913423
-  z: 53.34315591685802
-  yaw: 71.25152587890625
-  pitch: 43.04996109008789
+  x: 60.62077117329975
+  y: 67.0
+  z: -93.03721408282833
+  yaw: -177.5048370361328
+  pitch: -0.6938360333442688
